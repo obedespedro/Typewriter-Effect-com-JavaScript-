@@ -1,7 +1,5 @@
-// nessa linha chamamos o id que foi definido na tag <strong> no doc html
-const textDisplay = document.getElementById('efeito')
-// nessa linha são definidas as tres frases que serão animadas
-const phrases = ['Desenvolvedor WEB', 'WEB Designer', 'Programador FrontEnd']
+const textDisplay = document.getElementById('efeito') //efeito é o nome do id setado na tag strong do html (exemplo <strong id="efeito"></strong>)
+const phrases = ['Desenvolvedor WEB', 'rico só que não', 'Programador FrontEnd'] // essas são as frases que irão aparecer na tag strong
 let i = 0
 let j = 0 
 let currentPhrase = []
